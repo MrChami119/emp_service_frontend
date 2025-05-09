@@ -1,42 +1,85 @@
-#root {
-  max-width: 1280px;
-  margin: 0 auto;
-  padding: 2rem;
+.main-container{
+  width: 580px;
+  height: fit-content;
+  margin-left: 75px;
+}
+
+h3{
+  color: blueviolet;
+}
+
+.add-panel{
+  width: 580px;
+  height: 60px;
+  border: 1px solid;
+}
+
+.searchinput{
+  margin-top: 15px;
+  border: 1px solid;
+  border-radius: 5px;
+  height: 25px;
+  width: 200px;
+  background-color: aliceblue;
+  color: blue;
+}
+
+.addpaneldiv{
+  margin-left: 5px;
+  display: inline-block;
+}
+
+.addpanelinput{
+  border: 1px solid;
+  border-radius: 5px;
+  height: 25px;
+  width: 140px;
+}
+
+.addBtn{
+  border: 1px solid;
+  border-radius: 5px;
+  font-size: 11px;
+  line-height: 15px;
+  margin-left: 5px;
+  background-color: chartreuse;
+  color: blue;
+}
+
+.cancelBtn{
+  border: 1px solid;
+  border-radius: 5px;
+  font-size: 11px;
+  line-height: 15px;
+  margin-left: 5px;
+  background-color: red;;
+  color: blue;
+}
+
+.table{
+  width: 580px;
+  height: fit-content;
+  border: 1px solid;
+  border-collapse: collapse;
+  margin-left: 75px;
+  margin-top: 10px;
   text-align: center;
 }
 
-.logo {
-  height: 6em;
-  padding: 1.5em;
-  will-change: filter;
-  transition: filter 300ms;
-}
-.logo:hover {
-  filter: drop-shadow(0 0 2em #646cffaa);
-}
-.logo.react:hover {
-  filter: drop-shadow(0 0 2em #61dafbaa);
+th{
+  border: 1px solid;
+  border-radius: 5px;
+  font-size: 15px;
+  line-height: 20px;
+  background-color: rgb(184, 184, 244);
 }
 
-@keyframes logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+tr:nth-child(even){
+  background-color: rgb(246, 212, 248);
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  a:nth-of-type(2) .logo {
-    animation: logo-spin infinite 20s linear;
-  }
-}
-
-.card {
-  padding: 2em;
-}
-
-.read-the-docs {
-  color: #888;
+td{
+  border: 1px solid;
+  font-size: 15px;
+  line-height: 20px;
 }
